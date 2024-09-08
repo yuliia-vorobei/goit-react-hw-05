@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  list-style: none;
+  column-gap: 40px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  width: calc((100% - 5 * 24px) / 6);
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #0b0b0b;
+}

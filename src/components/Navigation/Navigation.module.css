@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 13px;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.18);
+  color: black;
+  margin-bottom: 12px;
+}
+
+.active {
+  color: red;
+}

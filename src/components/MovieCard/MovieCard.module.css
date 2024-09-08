@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #6b656593;
+}
+
+.list {
+  margin-left: 15px;
+}
