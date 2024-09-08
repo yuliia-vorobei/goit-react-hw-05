@@ -8,7 +8,7 @@ import {
 import css from "./MovieDetailsPage.module.css";
 import { getMovieDetails } from "../../../api/api";
 import { Suspense, useEffect, useRef, useState } from "react";
-import MovieCard from "../../components/movieCard/movieCard";
+import MovieCard from "../../components/MovieCard/MovieCard";
 import Loader from "../../components/Loader/Loader";
 
 export default function MovieDetailsPage() {
