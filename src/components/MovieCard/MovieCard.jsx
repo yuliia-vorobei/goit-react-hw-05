@@ -1,10 +1,13 @@
 import css from "./MovieCard.module.css";
 
 export default function MovieCard({ movie }) {
+  const defaultImg =
+    "http://dummyimage.com/150x200/c4c4c8/646cff.gif&text=No+image!";
+
   const url = `https://image.tmdb.org/t/p/w300/${movie.poster_path}`;
   return (
     <div className={css.container}>
-      {url && <img src={url}></img>}
+      {url && <img src={movie.poster_path ? url : defaultImg}></img>}
       <div className={css.list}>
         <h2>
           {movie.title}({new Date(movie.release_date).getFullYear()})
